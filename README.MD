@@ -27,6 +27,27 @@ Since we only have Our `Client ID#  6711d2ec0d724396ad1570fcfb431443`
 We need first hack application to allow us to enter without login, and reinstall it on our Andorid device.
 Remember when you change any file you have to update SHA1-Digest of thi file in `META-INF/MANIFEST.MF` file 
 
+4. I analyzed network packets by using Wireshark which app send during login:
+As you can see it send POST request to <font color="red">35.246.158.51:8070</font>
+```
+POST /auth/v2 HTTP/1.1
+user-agent: iWalk-v2
+content-type: application/json; charset=utf-8
+accept-encoding: gzip
+content-length: 29
+host: 35.246.158.51:8070
+
+{"Seed":"ff","Password":"gg"}HTTP/1.1 200 OK
+Content-Type: application/json
+Date: Wed, 08 May 2019 21:49:05 GMT
+Content-Length: 47
+
+{"IsValid":false,"LockURL":"","Time":149646302}
+```
+<img src="./Challenge1/WireShark-PacketsCapture.jpg"><br>
+<img src="./Challenge1/WireShark-PacketsCaptureFull.jpg">
+Looks like Destination Host it's API endpoint.
+
 ## Challenge-2
 To Be Resolved
 
