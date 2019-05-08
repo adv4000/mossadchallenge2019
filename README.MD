@@ -15,10 +15,12 @@ Here is my video on how to find it: https://youtu.be/T55p6KG1UB0
 ## Challenge-1
 
 1. Download `app.apk` file from http://3d375032374147a7865753e4bbc92682.xyz/static/app.apk
-This is Android application, you can install it on your Android device, recommend to use some not used old phone, and not your main private phone.
+This is Android application, you can install it on your Android device, recommend to use some Android Emulator, and not your main private phone.
 In your Android you need to enable Install from unknown sources!!!
 
-2. 
+
+2. You will see this screen after you launch this app:
+<img src="./Challenge1/image1.jpg">
 
 ## Challenge-2
 TBD
