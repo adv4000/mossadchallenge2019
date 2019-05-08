@@ -22,6 +22,9 @@ In your Android you need to enable Install from unknown sources!!!
 2. You will see this screen after you launch this app:
 <img src="./Challenge1/image1.jpg">
 
+Since we only have Our `Client ID#  6711d2ec0d724396ad1570fcfb431443`
+We need first hack application to allow us to enter without login, and reinstall it on our Andorid device.
+
 ## Challenge-2
 TBD
 
