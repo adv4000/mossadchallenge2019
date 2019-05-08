@@ -28,7 +28,7 @@ We need first hack application to allow us to enter without login, and reinstall
 Remember when you change any file you have to update SHA1-Digest of thi file in `META-INF/MANIFEST.MF` file 
 
 4. I analyzed network packets by using Wireshark which app send during login:
-As you can see it send POST request to <font color="red">35.246.158.51:8070</font>
+As you can see it send POST request to `35.246.158.51:8070`
 ```
 POST /auth/v2 HTTP/1.1
 user-agent: iWalk-v2
@@ -45,7 +45,7 @@ Content-Length: 47
 {"IsValid":false,"LockURL":"","Time":149646302}
 ```
 <img src="./Challenge1/WireShark-PacketsCapture.jpg"><br>
-<img src="./Challenge1/WireShark-PacketsCaptureFull.jpg">
+
 Looks like Destination Host it's API endpoint.
 
 ## Challenge-2
