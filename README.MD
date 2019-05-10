@@ -50,6 +50,7 @@ Looks like Destination Host it's API endpoint.
 You can generate same POST Request to serverby suing curl command:
 
 `curl -X POST -d '{"Seed":"xxxxx","Password":"yyyyyy"}' 35.246.158.51:8070/auth/v2`
+
 And get respond with same format:
 ```
 {
