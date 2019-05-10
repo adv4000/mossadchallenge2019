@@ -1,0 +1,225 @@
+
+<!-- saved from url=(0027)https://dev.missilesys.com/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script type="text/javascript" async="" src="./dev.missilesys.com_files/analytics.js.download"></script><script async="" src="./dev.missilesys.com_files/js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-139527999-3');
+</script>
+
+				<style>
+			html {
+				width: 100%;
+				height: 100%;
+				overflow: hidden;
+				margin: 0;
+			}
+			
+			body {
+				display: grid;
+				width: 100%;
+				height: 100%;
+				overflow: hidden;
+				margin: 0;
+				grid-template-columns: repeat(10,10%);
+				grid-template-rows: repeat(10,10%);
+			}
+			
+			div {
+				border: 1px solid black;
+				display: grid;
+				width: 100%;
+				grid-template-columns: repeat(10,10%);
+				grid-template-rows: repeat(10,10%);
+				
+				background-color: #A8A8A8;
+			}
+			
+			span {
+				grid-column-start: 5;
+				grid-column-end: 11;
+				grid-row-start:4;
+			}
+			
+			img {
+				grid-column-start: 5;
+				grid-column-end: 10;
+				grid-row-start: 2;
+				grid-row-end: 10;
+				
+				height: 50%;
+			}
+			
+			form {
+				grid-column-start: 5;
+				grid-column-end: 11;
+				grid-row-start: 2;
+				grid-row-end: 11;
+			}
+			
+			.level3_title {
+				background-color: #707070;
+			}
+			
+			.level2_title {
+				background-color: #585858;
+			}
+			
+			.level1_title {
+				background-color: #484848;
+			}
+			
+			#title {
+				grid-column-start: 1;
+				grid-column-end: 11;
+				grid-row-start: 1;
+				grid-row-end: 1;
+			}
+			
+			#subtitle {
+				grid-column-start: 1;
+				grid-column-end: 11;
+				grid-row-start: 2;
+				grid-row-end: 2;
+			}
+			
+			#instructions {
+				grid-column-start: 1;
+				grid-column-end: 11;
+				grid-row-start: 3;
+				grid-row-end: 3;
+			}
+			
+			#signup {
+				grid-column-start: 1;
+				grid-column-end: 11;
+				grid-row-start: 4;
+				grid-row-end: 11;
+			}
+			
+			#signup div {
+				border: 0px solid black;
+			}
+			
+			#username {
+				grid-column-start: 1;
+				grid-column-end: 11;
+				grid-row-start: 1;
+				grid-row-end: 1;
+			}
+			
+			#username span {
+				grid-column-start: 1;
+				grid-column-end: 1;
+				grid-row-start:1;
+				grid-row-end:11;
+			}
+			
+			#username input {
+				grid-column-start: 2;
+				grid-column-end: 2;
+				grid-row-start:1;
+				grid-row-end:11;
+			}
+			
+			#password {
+				grid-column-start: 1;
+				grid-column-end: 11;
+				grid-row-start: 2;
+				grid-row-end: 2;
+			}
+			
+			#password span {
+				grid-column-start: 1;
+				grid-column-end: 1;
+				grid-row-start:1;
+				grid-row-end:11;
+			}
+			
+			#password input {
+				grid-column-start: 2;
+				grid-column-end: 2;
+				grid-row-start:1;
+				grid-row-end:11;
+			}
+			
+			#submit {
+				grid-column-start: 1;
+				grid-column-end: 11;
+				grid-row-start: 3;
+				grid-row-end: 3;
+			}
+			
+			#submit input {
+				grid-column-start: 1;
+				grid-column-end: 1;
+				grid-row-start:1;
+				grid-row-end:11;
+			}
+			
+			#error {
+				grid-column-start: 5;
+				grid-column-end: 5;
+				grid-row-start:6;
+				grid-row-end:6;
+				
+				border: 0px;
+				color: red;
+			}
+			
+			#error span {
+				grid-column-start: 1;
+			}
+			
+			#notwelcome {
+				grid-column-start: 1;
+				grid-column-end: 11;
+				grid-row-start: 7;
+				grid-row-end: 11;
+				
+				border: 0px;
+			}
+			
+		</style>
+		
+		<script src="./dev.missilesys.com_files/PKCS10.js.download"></script>
+	</head>
+	<body>
+		<div id="title" class="level1_title">
+			<span>You are not welcome here!</span>
+		</div>
+		<div id="subtitle" class="level2_title">
+			<span>... But you can be!</span>
+		</div>
+		<div id="instructions" class="level3_title">
+			<span>Sign up here:</span>
+		</div>
+		<div id="signup">
+			<form method="post">
+				<div id="username">
+					<span>Username:</span>
+					<input name="username" type="text">
+				</div>
+				<div id="password">
+					<div>Password:</div>
+					<input name="password" type="password">
+				</div>
+				<div id="submit">
+					<input id="privatekey" name="privatekey" type="hidden">
+					<input id="csr" name="csr" type="hidden">
+					<input type="button" onclick="gencsr()" value="Submit">	
+				</div>
+			</form>
+		</div>
+		<div id="error">
+			<span></span>
+		</div>
+		<div id="notwelcome">
+			<img src="./dev.missilesys.com_files/red_light.png">
+		</div>
+	
+</body></html>
