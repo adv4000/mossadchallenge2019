@@ -61,6 +61,7 @@ And get respond with same format:
 ```
 
 ## Challenge-2
+http://759d8eba52184f538c8a4525680cfb33.xyz/
 To Be Resolved
 
 ## Challenge-3
