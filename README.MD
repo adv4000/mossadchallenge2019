@@ -24,7 +24,7 @@ In your Android you need to enable Install from unknown sources!!!
 <img src="./Challenge1/image1.jpg">
 
 Since we only have Our `Client ID#  6711d2ec0d724396ad1570fcfb431443`
-We need first hack application to allow us to enter without login, and reinstall it on our Andorid device.
+We maybe need hack application to allow us to enter without login, and reinstall it on our Android device.
 Remember when you change any file you have to update SHA1-Digest of thi file in `META-INF/MANIFEST.MF` file 
 
 4. I analyzed network packets by using Wireshark which app send during login:
@@ -47,7 +47,7 @@ Content-Length: 47
 <img src="./Challenge1/WireShark-PacketsCapture.jpg"><br>
 
 Looks like Destination Host it's API endpoint.
-You can generate same POST Request to serverby suing curl command:
+You can generate same POST Request to server by using *curl* command:
 
 `curl -X POST -d '{"Seed":"xxxxx","Password":"yyyyyy"}' 35.246.158.51:8070/auth/v2`
 
