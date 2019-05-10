@@ -47,6 +47,8 @@ Content-Length: 47
 <img src="./Challenge1/WireShark-PacketsCapture.jpg"><br>
 
 Looks like Destination Host it's API endpoint.
+You can generate same POST Request to serverby suing curl command:
+`curl -X POST -d '{"Seed":"xxxxx","Password":"yyyyyy"}' 35.246.158.51:8070/auth/v2`
 
 ## Challenge-2
 To Be Resolved
