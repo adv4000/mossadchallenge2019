@@ -1,6 +1,15 @@
+```diff
+- In my opinion, the chance of being accepted into the Mossad by solving a riddle is poured to zero
+- for those who come from outside of the Israeli Ministry of Defense.
+- I think that only smart people from elite units of the IDF can be accepted (8200, Mamram)
++ But always interesting to try your knowledge ...
++ And you can always submit your CV directly without any challenges at:
+ https://www.mossad.gov.il/heb/careers/Pages/default.aspx
+```
 <img src="mossad.png">
 
 ### Mossad Challenge 2019
+
 
 To get into Challenges Web Page you need to find IP Address from Image below:
 
