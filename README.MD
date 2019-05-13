@@ -66,6 +66,7 @@ Your password will be analyzed char by char and if character is correct, into Ti
 So longest delay means correct character/password.
 
 <img src="./Challenge1/image2.jpg">
+This is how to solve it: https://youtu.be/c2hqjVcSiOg
 
 ## Challenge-2
 http://759d8eba52184f538c8a4525680cfb33.xyz/
