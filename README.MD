@@ -32,9 +32,7 @@ In your Android you need to enable Install from unknown sources!!!
 3. You will see this screen after you launch this app:
 <img src="./Challenge1/image1.jpg">
 
-Since we only have Our `Client ID#  6711d2ec0d724396ad1570fcfb431443`
-We maybe need hack application to allow us to enter without login, and reinstall it on our Android device.
-Remember when you change any file you have to update SHA1-Digest of thi file in `META-INF/MANIFEST.MF` file 
+Our Client ID#  `6711d2ec0d724396ad1570fcfb431443` is our Seed and it's different on every browser, so password also different.
 
 4. I analyzed network packets by using Wireshark which app send during login:
 As you can see it send POST request to `35.246.158.51:8070`
