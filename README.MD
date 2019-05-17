@@ -87,5 +87,10 @@ You can register and get Certificate to login.
 Funciton `gencsr` called from https://dev.missilesys.com/js/PKCS10.js to generate cert.<br>
 You will need to update this file to generate Administartor certificate locally.
 
+Import Certificate into your Browser and go to https://missilesys.com/ it will be secured connection right now.<br>
+You will get to Administartor Page:
+<img src="./Challenge2/challenge2adminpage.jpg"><br>
+
+
 ## Challenge-3
 To Be Resolved
