@@ -1,0 +1,112 @@
+
+<!-- saved from url=(0023)https://r-u-ready-4.it/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script type="text/javascript" async="" src="./r-u-ready-4.it_files/analytics.js.download"></script><script async="" src="./r-u-ready-4.it_files/js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-139527999-1');
+</script>
+
+		<meta name="viewport" content="width=device-width, initial-scale=0.8">
+		
+		<meta name="description" content="Mossad 2019 challenge countdown">
+		<meta name="keywords" content="Mossad, Mossad 2019, Mossad challenge, Challenge, banner, countdown">
+		<link href="./r-u-ready-4.it_files/css" rel="stylesheet">
+		<style>
+		@media(max-width: 600px)
+		{
+			body{
+				Zoom: 0.6;
+			}
+		}
+		@media(max-width: 370px)
+		{
+			body{
+				Zoom: 0.5;
+			}
+		}
+		</style>
+<link rel="stylesheet" href="./r-u-ready-4.it_files/style.css">	</head>
+<body style="color: #eee; background: #1c7fad;">		<div align="center" style="vertical-align: middle; padding: 4px; widht: 100%">
+			<img src="./r-u-ready-4.it_files/logoHeb.png" style="width: 100%; max-width: 200px; height: auto;">
+		</div>
+				
+		<div align="center" style="vertical-align: middle; padding: 4px"> 
+			<div align="center" class="container">
+				<div>
+					<div class="tile">
+						<span id="days" class="adjust">00</span>
+					</div>
+					<li class="li">ימים</li>
+				</div>
+				<div>
+					<div class="tile">
+						<span id="hours" class="adjust">00</span>
+					</div>
+					<li class="li">שעות</li>
+				</div>
+				<div>
+					<div class="tile">
+						<span id="mins" class="adjust">45</span>
+					</div>
+					<li class="li">דקות</li>
+				</div>
+				<div>
+					<div class="tile">
+						<span id="secs" class="adjust">28</span>
+					</div>
+					<li class="li">שניות</li>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+		var target_date = 1557334800000;
+		var days, hours, minutes, seconds; // variables for time units
+
+		var eDays = document.getElementById("days");
+		var eHours = document.getElementById("hours");
+		var eMins = document.getElementById("mins");
+		var eSecs = document.getElementById("secs");
+		
+		getCountdown();
+
+		setInterval(function () { getCountdown(); }, 1000);
+
+		function getCountdown(){
+
+			// find the amount of "seconds" between now and target
+			var current_date = new Date().getTime();
+			var seconds_left = (target_date - current_date) / 1000;
+			if (seconds_left < 0)
+			{
+				seconds_left = 0;
+			}
+			
+			days = pad( parseInt(seconds_left / 86400) );
+			seconds_left = seconds_left % 86400;
+			
+				 
+			hours = pad( parseInt(seconds_left / 3600) );
+			seconds_left = seconds_left % 3600;
+				  
+			minutes = pad( parseInt(seconds_left / 60) );
+			seconds = pad( parseInt( seconds_left % 60 ) );
+
+			
+			eDays.innerHTML = days;
+			eHours.innerHTML = hours;
+			eMins.innerHTML = minutes;
+			eSecs.innerHTML = seconds;
+		}
+
+		function pad(n) {
+			return (n < 10 ? '0' : '') + n.toString();
+		}
+		</script>
+	
+
+</body></html>
